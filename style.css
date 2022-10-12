@@ -37,9 +37,12 @@ nav{
     text-align: start;
 }
 button:hover{
-    color:indigo;
+    background-color:indigo;
     width: 60px;
     height: 25px;
     min-width: 56px;
     max-width: 65px;
+}
+button:active{
+    background-color: silver;
 }
