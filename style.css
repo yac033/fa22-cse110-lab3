@@ -1,3 +1,4 @@
+
 .survey{
     border-style: dashed;
     border-color: yellow;
@@ -17,4 +18,8 @@
 #Things{
     Margin: 0.5cm 1cm 0.5cm 1cm;
     padding: 10px 15px 10px 15px;
+}
+
+img,video{
+    width: 1000px;
 }
