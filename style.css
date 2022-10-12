@@ -73,3 +73,10 @@ footer > #noshowing{
 body{
     size: A4;
 }
+h2 + label{
+    background-color: yellow;
+}
+input ~ label{
+    font-family: 'Roboto', sans-serif;
+    background-color: aqua;
+}
