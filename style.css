@@ -23,3 +23,6 @@
 img,video{
     width: 1000px;
 }
+a[href*="#"]{
+    font-family: 'Roboto', sans-serif;
+}
