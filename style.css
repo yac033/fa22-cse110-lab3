@@ -24,6 +24,8 @@
 
 img,video{
     width: 1000px;
+    position:sticky;
+    left: 3cm;
 }
 a[href*="#"]{
     font-family: 'Roboto', sans-serif;
