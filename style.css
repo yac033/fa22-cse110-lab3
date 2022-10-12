@@ -7,15 +7,14 @@
     background-color: rgb(201, 229, 235);
     margin-top: auto;
     margin-left: 2cm;
+    margin-right: 2cm;
     padding-top: 1cm;
     padding-right: 1cm;
     padding-bottom: 40Q;
     padding-left: 10mm;
     padding: 1cm;
-    width: 600px;
-    height: 400px;
     position: relative;
-    left:300px;
+    left:20px;
 }
 #Things{
     Margin: 0.5cm 1cm 0.5cm 1cm;
@@ -39,12 +38,25 @@ nav{
 }
 button:hover{
     background-color:indigo;
-    width: 60px;
+    width: 980px;
     height: 25px;
     min-width: 56px;
-    max-width: 65px;
+    max-width: 1000px;
 }
 button:active{
     background-color: silver;
     display: none;
+}
+.survey .form{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: center;
+}
+
+.survey .form #mp > label,#other{
+    display: grid;
+    justify-content: space-evenly;
+    align-items: center;
+    justify-items: stretch;
 }
