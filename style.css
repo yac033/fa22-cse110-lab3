@@ -1,3 +1,20 @@
-.form {
+.survey{
+    border-style: dashed;
+    border-color: yellow;
+    border-width:1vh;
+    border-radius:3em;
     background-color: rgb(201, 229, 235);
-  }
+    margin-top: auto;
+    margin-left: 2cm;
+    padding-top: 1cm;
+    padding-right: 1cm;
+    padding-bottom: 40Q;
+    padding-left: 10mm;
+    padding: 1cm;
+    width: 600px;
+    height: 400px;
+}
+#Things{
+    Margin: 0.5cm 1cm 0.5cm 1cm;
+    padding: 10px 15px 10px 15px;
+}
