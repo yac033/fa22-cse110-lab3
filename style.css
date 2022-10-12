@@ -21,7 +21,7 @@
     padding: 10px 15px 10px 15px;
 }
 
-img,video{
+img,.vid{
     width: 1000px;
     position:sticky;
     left: 3cm;
@@ -79,4 +79,7 @@ h2 + label{
 input ~ label{
     font-family: 'Roboto', sans-serif;
     background-color: aqua;
+}
+#noshow2, #noshow1{
+    display: none;
 }
