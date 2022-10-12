@@ -26,6 +26,7 @@ img,video{
     width: 1000px;
     position:sticky;
     left: 3cm;
+    display: block;
 }
 a[href*="#"]{
     font-family: 'Roboto', sans-serif;
@@ -45,4 +46,5 @@ button:hover{
 }
 button:active{
     background-color: silver;
+    display: none;
 }
