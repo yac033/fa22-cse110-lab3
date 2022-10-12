@@ -60,3 +60,16 @@ footer{
     justify-content: end;
     align-items: end;
 }
+footer > #noshowing{
+    display:none;
+}
+
+@media (min-aspect-ratio: 16/9) {
+    footer{
+        background-color: red;
+    }
+}
+
+body{
+    size: A4;
+}
