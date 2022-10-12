@@ -26,3 +26,9 @@ img,video{
 a[href*="#"]{
     font-family: 'Roboto', sans-serif;
 }
+
+nav{
+    color: black;
+    text-decoration: underline dashed blueviolet;
+    text-align: start;
+}
