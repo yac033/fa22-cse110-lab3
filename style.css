@@ -1,10 +1,10 @@
 
 .survey{
-    border-style: dashed;
-    border-color: yellow;
-    border-width:1vh;
-    border-radius:3em;
-    background-color: rgb(201, 229, 235);
+    border-style: dashed; /*define what type of border*/
+    border-color: yellow; /*set color of the border*/
+    border-width:1vh;/*set the width of the border*/
+    border-radius:3em;/*set the radius of the border(corner)*/
+    background-color: rgb(201, 229, 235);/*background color for the survey*/
     margin-top: auto;
     margin-left: 2cm;
     margin-right: 2cm;
@@ -12,74 +12,73 @@
     padding-right: 1cm;
     padding-bottom: 40Q;
     padding-left: 10mm;
-    padding: 1cm;
-    position: relative;
-    left:20px;
+    position: relative;/*set the position of the survey on the page*/
+    left: 1ex;
 }
 #Things{
-    Margin: 0.5cm 1cm 0.5cm 1cm;
-    padding: 10px 15px 10px 15px;
+    Margin: 0.5cm 1cm 0.5cm 1cm;/*set the margin for the things we need to talk about*/
+    padding: 10px 15px 10px 15px;/*set the padding for the things we need to talk about*/
 }
 
-img,.vid{
+img, .vid{/*set the postition of the picture and the video in the page*/
     width: 1000px;
     position:sticky;
     left: 3cm;
     display: block;
 }
-a[href*="#"]{
+a[href*="#"]{/*apply font to the things that have the attribute start with #(mustly the list item) */
     font-family: 'Roboto', sans-serif;
 }
 
-nav{
-    color: black;
+nav{/*apply style to the navigation tab*/
+    color: #000000;
     text-decoration: underline dashed blueviolet;
     text-align: start;
 }
-button:hover{
+button:hover{/*when hover on the button change color of the button and change the dimension by a little to improve feedback to the user*/
     background-color:indigo;
     width: 980px;
     height: 25px;
     min-width: 56px;
     max-width: 1000px;
 }
-button:active{
-    background-color: silver;
+button:active{ /*when click on the button will disapper*/
+    background-color: hsl(0, 0, 75);
     display: none;
 }
-.survey .form{
+.survey .form{/*change the layout of the form under survey*/
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
     align-content: center;
 }
 
-footer{
+footer{/*relocate the footer to the right*/
     display: grid;
     align-content: space-evenly;
     justify-content: end;
     align-items: end;
 }
-footer > #noshowing{
+footer > #noshowing{/*hidden message*/
     display:none;
 }
 
-@media (min-aspect-ratio: 16/9) {
+@media (min-aspect-ratio: 16/9) {/*if user using different divice that have aspect ratio higher than 16/9 apply background color to the footer*/
     footer{
         background-color: red;
     }
 }
 
-body{
+body{/*apply size rule on the body of the page*/
     size: A4;
 }
-h2 + label{
+h2 + label{/*applt highline to the you can see the recording*/
     background-color: yellow;
 }
-input ~ label{
+input ~ label{/*apply style to the options in mc in the survey*/
     font-family: 'Roboto', sans-serif;
     background-color: aqua;
 }
-#noshow2, #noshow1{
+#noshow2, #noshow1{ /*hide the hidden message in the footer*/
     display: none;
 }
